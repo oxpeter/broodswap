@@ -1,0 +1,17 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0005215 [MF] 'transporter activity'
+
+3/29 (10.34%) of genes had enriched go terms:
+LOC105284889
+LOC105280959
+LOC105279074
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005215 [MF] 'transporter activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       26
+     Non-Target Set: 85      10317
+         odds-ratio: 14.005
+            P-value: 0.002

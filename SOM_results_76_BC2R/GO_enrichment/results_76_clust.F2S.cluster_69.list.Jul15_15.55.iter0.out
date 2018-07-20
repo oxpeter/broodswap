@@ -1,0 +1,91 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+8 significantly enriched go terms found
+GO:0043169 [MF] 'cation binding'
+GO:0004252 [MF] 'serine-type endopeptidase activity'
+GO:0052689 [MF] 'carboxylic ester hydrolase activity'
+GO:0016787 [MF] 'hydrolase activity'
+GO:0003824 [MF] 'catalytic activity'
+GO:0006508 [BP] 'proteolysis'
+GO:0007160 [BP] 'cell-matrix adhesion'
+GO:0009166 [BP] 'nucleotide catabolic process'
+
+21/55 (38.18%) of genes had enriched go terms:
+LOC105279878
+LOC105278942
+LOC105285031
+LOC105278548
+LOC105279281
+LOC105286596
+LOC105287615
+LOC105281091
+LOC105274787
+LOC105285564
+LOC105284993
+LOC105286874
+LOC105285372
+LOC105278064
+LOC105284102
+LOC105283823
+LOC105274935
+LOC105279312
+LOC105283349
+LOC105279319
+LOC105279294
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0043169 [MF] 'cation binding'
+Has GO                 Doesn't Have GO
+         Target Set: 2       53
+     Non-Target Set: 8       10368
+         odds-ratio: 48.906
+            P-value: 0.001
+
+GO:0004252 [MF] 'serine-type endopeptidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       52
+     Non-Target Set: 81      10295
+         odds-ratio: 7.333
+            P-value: 0.010
+
+GO:0006508 [BP] 'proteolysis'
+Has GO                 Doesn't Have GO
+         Target Set: 7       48
+     Non-Target Set: 285     10091
+         odds-ratio: 5.164
+            P-value: 0.001
+
+GO:0052689 [MF] 'carboxylic ester hydrolase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       53
+     Non-Target Set: 18      10358
+         odds-ratio: 21.715
+            P-value: 0.005
+
+GO:0016787 [MF] 'hydrolase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 7       48
+     Non-Target Set: 73      10303
+         odds-ratio: 20.582
+            P-value: 0.000
+
+GO:0003824 [MF] 'catalytic activity'
+Has GO                 Doesn't Have GO
+         Target Set: 7       48
+     Non-Target Set: 334     10042
+         odds-ratio: 4.385
+            P-value: 0.002
+
+GO:0007160 [BP] 'cell-matrix adhesion'
+Has GO                 Doesn't Have GO
+         Target Set: 2       53
+     Non-Target Set: 1       10375
+         odds-ratio: 391.509
+            P-value: 0.000
+
+GO:0009166 [BP] 'nucleotide catabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       53
+     Non-Target Set: 1       10375
+         odds-ratio: 391.509
+            P-value: 0.000

@@ -1,0 +1,25 @@
+File created on Jul18_11.23
+Program called from /home/antqueen/genomics/experiments/analyses/PRO20160617_broodswap_subtraction/SOM/SOM_results_96_S2F/promoters
+/Volumes/antqueen/documents/Peter/git/genomepy/genomepy/gffparser.py -d ./ -o results_96_clust.S2F.cluster_54 --promoters ../results_96_clust.S2F.cluster_54.list -c 1 -q
+
+GO_file='/Volumes/antqueen/genomics/experiments/analyses/PRO20150520_interproscan/armyant.OGS.V2.0.1.longest_nonred.pep.goterms.out',
+bed2gtf=None,
+blastoff=False,
+column=1,
+directory='./',
+downstream=50,
+genome_file='/home/antqueen/genomics/genomes/C.biroi/Cbir.assembly.v3.0.fa',
+gff='/Volumes/antqueen/genomics/genomes/C.biroi/armyant.OGS.V2.0.1.adjusted3.gff.Apr29_12.47.out',
+gff2bed=False,
+gff2gtf=False,
+input_file=None,
+investigate=False,
+methylation=False,
+output_file='results_96_clust.S2F.cluster_54',
+promoters='../results_96_clust.S2F.cluster_54.list',
+quiet=True,
+show_go=False,
+splicing=None,
+strip=None,
+trim=None,
+upstream=450

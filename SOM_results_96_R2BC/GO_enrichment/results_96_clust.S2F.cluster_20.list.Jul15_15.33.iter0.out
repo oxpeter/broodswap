@@ -1,0 +1,16 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0019752 [BP] 'carboxylic acid metabolic process'
+
+2/34 (5.88%) of genes had enriched go terms:
+LOC105275026
+LOC105282762
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0019752 [BP] 'carboxylic acid metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       32
+     Non-Target Set: 16      10381
+         odds-ratio: 40.551
+            P-value: 0.002

@@ -1,0 +1,19 @@
+File created on Jul15_15.33
+Program called from /home/antqueen/genomics/experiments/analyses/PRO20160617_broodswap_subtraction/SOM/SOM_results_96_S2F
+/home/antqueen/documents/Peter/git/genomepy/genomepy/genematch.py -d ./GO_enrichment -o results_96_clust.S2F.cluster_1.list -D -i results_96_clust.S2F.cluster_1.list -E
+
+alpha=0.05,
+column=1,
+datafile='/Volumes/antqueen/genomics/experiments/analyses/PRO20150520_interproscan/armyant.OGS.V2.0.1.longest_nonred.pep.goterms.out',
+directory='./GO_enrichment',
+display_on=True,
+enrichment=True,
+gofile='/Volumes/antqueen/genomics/experiments/analyses/PRO20150520_interproscan/go.obo.txt',
+input='results_96_clust.S2F.cluster_1.list',
+iterations=1,
+max_q=0.05,
+method='fdr_bh',
+min_terms=2,
+output='results_96_clust.S2F.cluster_1.list',
+quiet=False,
+random=0

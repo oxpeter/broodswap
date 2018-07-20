@@ -1,0 +1,46 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+4 significantly enriched go terms found
+GO:0004889 [MF] 'acetylcholine-activated cation-selective channel activity'
+GO:0004129 [MF] 'cytochrome-c oxidase activity'
+GO:0045211 [CL] 'postsynaptic membrane'
+GO:0043044 [BP] 'ATP-dependent chromatin remodeling'
+
+8/180 (4.44%) of genes had enriched go terms:
+LOC105278276
+LOC105284246
+LOC105284002
+LOC105278074
+LOC105287149
+LOC105287872
+LOC105281447
+LOC105278546
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0043044 [BP] 'ATP-dependent chromatin remodeling'
+Has GO                 Doesn't Have GO
+         Target Set: 2       178
+     Non-Target Set: 1       10250
+         odds-ratio: 115.169
+            P-value: 0.001
+
+GO:0045211 [CL] 'postsynaptic membrane'
+Has GO                 Doesn't Have GO
+         Target Set: 3       177
+     Non-Target Set: 6       10245
+         odds-ratio: 28.941
+            P-value: 0.000
+
+GO:0004889 [MF] 'acetylcholine-activated cation-selective channel activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       177
+     Non-Target Set: 6       10245
+         odds-ratio: 28.941
+            P-value: 0.000
+
+GO:0004129 [MF] 'cytochrome-c oxidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       177
+     Non-Target Set: 7       10244
+         odds-ratio: 24.804
+            P-value: 0.001

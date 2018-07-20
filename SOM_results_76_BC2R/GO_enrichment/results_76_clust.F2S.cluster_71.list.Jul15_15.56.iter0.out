@@ -1,0 +1,191 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+15 significantly enriched go terms found
+GO:0001104 [MF] 'RNA polymerase II transcription cofactor activity'
+GO:0004812 [MF] 'aminoacyl-tRNA ligase activity'
+GO:0004817 [MF] 'cysteine-tRNA ligase activity'
+GO:0051082 [MF] 'unfolded protein binding'
+GO:0005524 [MF] 'ATP binding'
+GO:0004828 [MF] 'serine-tRNA ligase activity'
+GO:0031072 [MF] 'heat shock protein binding'
+GO:0000166 [MF] 'nucleotide binding'
+GO:0016592 [CL] 'mediator complex'
+GO:0006281 [BP] 'DNA repair'
+GO:0009408 [BP] 'response to heat'
+GO:0006423 [BP] 'cysteinyl-tRNA aminoacylation'
+GO:0006418 [BP] 'tRNA aminoacylation for protein translation'
+GO:0006370 [BP] '7-methylguanosine mRNA capping'
+GO:0006434 [BP] 'seryl-tRNA aminoacylation'
+
+65/314 (20.70%) of genes had enriched go terms:
+LOC105278489
+LOC105287522
+LOC105286166
+LOC105275350
+LOC105280971
+LOC105280699
+LOC105286512
+LOC105287144
+LOC105279222
+LOC105275283
+LOC105284338
+LOC105276601
+LOC105283368
+LOC105280081
+LOC105280449
+LOC105281427
+LOC105281412
+LOC105276912
+LOC105275688
+LOC105275464
+LOC105275184
+LOC105276225
+LOC105274965
+LOC105278015
+LOC105277000
+LOC105280104
+LOC105280698
+LOC105287573
+LOC105280922
+LOC105284818
+LOC105280462
+LOC105287466
+LOC105276938
+LOC105286353
+LOC105274864
+LOC105277573
+LOC105279596
+LOC105287954
+LOC105283763
+LOC105275953
+LOC105282821
+LOC105287720
+LOC105280407
+LOC105276825
+LOC105284685
+LOC105275257
+LOC105284112
+LOC105287704
+LOC105279719
+LOC105282000
+LOC105277367
+LOC105277410
+LOC105285852
+LOC105277754
+LOC105274522
+LOC105275538
+LOC105274488
+LOC105274723
+LOC105286813
+LOC105278761
+LOC105279707
+LOC105288042
+LOC105288205
+LOC105285186
+LOC105286617
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0006281 [BP] 'DNA repair'
+Has GO                 Doesn't Have GO
+         Target Set: 9       305
+     Non-Target Set: 61      10056
+         odds-ratio: 4.864
+            P-value: 0.000
+
+GO:0009408 [BP] 'response to heat'
+Has GO                 Doesn't Have GO
+         Target Set: 2       312
+     Non-Target Set: 0       10117
+         odds-ratio: inf
+            P-value: 0.001
+
+GO:0001104 [MF] 'RNA polymerase II transcription cofactor activity'
+Has GO                 Doesn't Have GO
+         Target Set: 4       310
+     Non-Target Set: 14      10103
+         odds-ratio: 9.312
+            P-value: 0.002
+
+GO:0006423 [BP] 'cysteinyl-tRNA aminoacylation'
+Has GO                 Doesn't Have GO
+         Target Set: 2       312
+     Non-Target Set: 0       10117
+         odds-ratio: inf
+            P-value: 0.001
+
+GO:0016592 [CL] 'mediator complex'
+Has GO                 Doesn't Have GO
+         Target Set: 4       310
+     Non-Target Set: 15      10102
+         odds-ratio: 8.690
+            P-value: 0.002
+
+GO:0004812 [MF] 'aminoacyl-tRNA ligase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 6       308
+     Non-Target Set: 29      10088
+         odds-ratio: 6.777
+            P-value: 0.001
+
+GO:0004817 [MF] 'cysteine-tRNA ligase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       312
+     Non-Target Set: 0       10117
+         odds-ratio: inf
+            P-value: 0.001
+
+GO:0051082 [MF] 'unfolded protein binding'
+Has GO                 Doesn't Have GO
+         Target Set: 5       309
+     Non-Target Set: 22      10095
+         odds-ratio: 7.425
+            P-value: 0.001
+
+GO:0005524 [MF] 'ATP binding'
+Has GO                 Doesn't Have GO
+         Target Set: 43      271
+     Non-Target Set: 570     9547
+         odds-ratio: 2.658
+            P-value: 0.000
+
+GO:0004828 [MF] 'serine-tRNA ligase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       312
+     Non-Target Set: 1       10116
+         odds-ratio: 64.846
+            P-value: 0.003
+
+GO:0006418 [BP] 'tRNA aminoacylation for protein translation'
+Has GO                 Doesn't Have GO
+         Target Set: 6       308
+     Non-Target Set: 29      10088
+         odds-ratio: 6.777
+            P-value: 0.001
+
+GO:0031072 [MF] 'heat shock protein binding'
+Has GO                 Doesn't Have GO
+         Target Set: 2       312
+     Non-Target Set: 0       10117
+         odds-ratio: inf
+            P-value: 0.001
+
+GO:0000166 [MF] 'nucleotide binding'
+Has GO                 Doesn't Have GO
+         Target Set: 16      298
+     Non-Target Set: 197     9920
+         odds-ratio: 2.704
+            P-value: 0.001
+
+GO:0006370 [BP] '7-methylguanosine mRNA capping'
+Has GO                 Doesn't Have GO
+         Target Set: 2       312
+     Non-Target Set: 1       10116
+         odds-ratio: 64.846
+            P-value: 0.003
+
+GO:0006434 [BP] 'seryl-tRNA aminoacylation'
+Has GO                 Doesn't Have GO
+         Target Set: 2       312
+     Non-Target Set: 1       10116
+         odds-ratio: 64.846
+            P-value: 0.003

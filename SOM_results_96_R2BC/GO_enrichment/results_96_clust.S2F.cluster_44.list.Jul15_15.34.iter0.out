@@ -1,0 +1,46 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+4 significantly enriched go terms found
+GO:0003777 [MF] 'microtubule motor activity'
+GO:0005198 [MF] 'structural molecule activity'
+GO:0006511 [BP] 'ubiquitin-dependent protein catabolic process'
+GO:0007018 [BP] 'microtubule-based movement'
+
+8/80 (10.00%) of genes had enriched go terms:
+LOC105283607
+LOC105277555
+LOC105276410
+LOC105281949
+LOC105280721
+LOC105287700
+LOC105280807
+LOC105286127
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0006511 [BP] 'ubiquitin-dependent protein catabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 3       77
+     Non-Target Set: 46      10305
+         odds-ratio: 8.728
+            P-value: 0.006
+
+GO:0007018 [BP] 'microtubule-based movement'
+Has GO                 Doesn't Have GO
+         Target Set: 3       77
+     Non-Target Set: 42      10309
+         odds-ratio: 9.563
+            P-value: 0.005
+
+GO:0003777 [MF] 'microtubule motor activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       77
+     Non-Target Set: 42      10309
+         odds-ratio: 9.563
+            P-value: 0.005
+
+GO:0005198 [MF] 'structural molecule activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       78
+     Non-Target Set: 13      10338
+         odds-ratio: 20.391
+            P-value: 0.006

@@ -1,0 +1,111 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+4 significantly enriched go terms found
+GO:0005515 [MF] 'protein binding'
+GO:0005802 [CL] 'trans-Golgi network'
+GO:0009113 [BP] 'purine nucleobase biosynthetic process'
+GO:0010508 [BP] 'positive regulation of autophagy'
+
+73/282 (25.89%) of genes had enriched go terms:
+LOC105283541
+LOC105275355
+LOC105285768
+LOC105286799
+LOC105283131
+LOC105286870
+LOC105280206
+LOC105284877
+LOC105286529
+LOC105284509
+LOC105275851
+LOC105280031
+LOC105275598
+LOC105278611
+LOC105276233
+LOC105274747
+LOC105277528
+LOC105277125
+LOC105279492
+LOC105279490
+LOC105281834
+LOC105282017
+LOC105279698
+LOC105287516
+LOC105286478
+LOC105278713
+LOC105280109
+LOC105278392
+LOC105282790
+LOC105283156
+LOC105277816
+LOC105278456
+LOC105277319
+LOC105278326
+LOC105280918
+LOC105276898
+LOC105274674
+LOC105287646
+LOC105278739
+LOC105283934
+LOC105278563
+LOC105282923
+LOC105280476
+LOC105284982
+LOC105277676
+LOC105276415
+LOC105275716
+LOC105282023
+LOC105280319
+LOC105280376
+LOC105277870
+LOC105286836
+LOC105279591
+LOC105276070
+LOC105284535
+LOC105277079
+LOC105274655
+LOC105284904
+LOC105275788
+LOC105278694
+LOC105281666
+LOC105283200
+LOC105286220
+LOC105285113
+LOC105283594
+LOC105286047
+LOC105276359
+LOC105275536
+LOC105276111
+LOC105280421
+LOC105280427
+LOC105276974
+LOC105276610
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0009113 [BP] 'purine nucleobase biosynthetic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       280
+     Non-Target Set: 0       10149
+         odds-ratio: inf
+            P-value: 0.001
+
+GO:0005515 [MF] 'protein binding'
+Has GO                 Doesn't Have GO
+         Target Set: 67      215
+     Non-Target Set: 1625    8524
+         odds-ratio: 1.635
+            P-value: 0.001
+
+GO:0010508 [BP] 'positive regulation of autophagy'
+Has GO                 Doesn't Have GO
+         Target Set: 2       280
+     Non-Target Set: 0       10149
+         odds-ratio: inf
+            P-value: 0.001
+
+GO:0005802 [CL] 'trans-Golgi network'
+Has GO                 Doesn't Have GO
+         Target Set: 2       280
+     Non-Target Set: 0       10149
+         odds-ratio: inf
+            P-value: 0.001

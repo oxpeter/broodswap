@@ -1,0 +1,91 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+6 significantly enriched go terms found
+GO:0004984 [MF] 'olfactory receptor activity'
+GO:0005549 [MF] 'odorant binding'
+GO:0003735 [MF] 'structural constituent of ribosome'
+GO:0005840 [CL] 'ribosome'
+GO:0007608 [BP] 'sensory perception of smell'
+GO:0006412 [BP] 'translation'
+
+37/315 (11.75%) of genes had enriched go terms:
+LOC105284489
+LOC105286094
+LOC105279416
+LOC105277412
+LOC105281507
+LOC105278011
+LOC105276316
+LOC105277252
+LOC105275746
+LOC105279132
+LOC105286020
+LOC105275674
+LOC105285977
+LOC105275249
+LOC105288050
+LOC105276673
+LOC105282615
+LOC105280646
+LOC105279110
+LOC105276768
+LOC105287849
+LOC105281813
+LOC105276661
+LOC105276660
+LOC105281311
+LOC105285846
+LOC105282244
+LOC105285752
+LOC105281009
+LOC105274524
+LOC105285848
+LOC105277181
+LOC105286082
+LOC105286878
+LOC105286086
+LOC105283336
+LOC105276055
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005840 [CL] 'ribosome'
+Has GO                 Doesn't Have GO
+         Target Set: 12      303
+     Non-Target Set: 103     10013
+         odds-ratio: 3.850
+            P-value: 0.000
+
+GO:0004984 [MF] 'olfactory receptor activity'
+Has GO                 Doesn't Have GO
+         Target Set: 25      290
+     Non-Target Set: 361     9755
+         odds-ratio: 2.329
+            P-value: 0.000
+
+GO:0005549 [MF] 'odorant binding'
+Has GO                 Doesn't Have GO
+         Target Set: 25      290
+     Non-Target Set: 372     9744
+         odds-ratio: 2.258
+            P-value: 0.000
+
+GO:0003735 [MF] 'structural constituent of ribosome'
+Has GO                 Doesn't Have GO
+         Target Set: 12      303
+     Non-Target Set: 111     10005
+         odds-ratio: 3.570
+            P-value: 0.000
+
+GO:0007608 [BP] 'sensory perception of smell'
+Has GO                 Doesn't Have GO
+         Target Set: 25      290
+     Non-Target Set: 361     9755
+         odds-ratio: 2.329
+            P-value: 0.000
+
+GO:0006412 [BP] 'translation'
+Has GO                 Doesn't Have GO
+         Target Set: 12      303
+     Non-Target Set: 116     10000
+         odds-ratio: 3.414
+            P-value: 0.000

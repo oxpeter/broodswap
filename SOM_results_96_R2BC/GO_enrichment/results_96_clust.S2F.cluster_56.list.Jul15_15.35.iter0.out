@@ -1,0 +1,17 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0005789 [CL] 'endoplasmic reticulum membrane'
+
+3/91 (3.30%) of genes had enriched go terms:
+LOC105278302
+LOC105284704
+LOC105283758
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005789 [CL] 'endoplasmic reticulum membrane'
+Has GO                 Doesn't Have GO
+         Target Set: 3       88
+     Non-Target Set: 12      10328
+         odds-ratio: 29.341
+            P-value: 0.000

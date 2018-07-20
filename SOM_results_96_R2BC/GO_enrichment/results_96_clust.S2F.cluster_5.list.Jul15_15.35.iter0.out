@@ -1,0 +1,174 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+10 significantly enriched go terms found
+GO:0004190 [MF] 'aspartic-type endopeptidase activity'
+GO:0003887 [MF] 'DNA-directed DNA polymerase activity'
+GO:0016805 [MF] 'dipeptidase activity'
+GO:0008408 [MF] '3'-5' exonuclease activity'
+GO:0008237 [MF] 'metallopeptidase activity'
+GO:0004222 [MF] 'metalloendopeptidase activity'
+GO:0003676 [MF] 'nucleic acid binding'
+GO:0031012 [CL] 'extracellular matrix'
+GO:0015074 [BP] 'DNA integration'
+GO:0006508 [BP] 'proteolysis'
+
+88/385 (22.86%) of genes had enriched go terms:
+LOC105282899
+LOC105282721
+LOC105287259
+LOC105277933
+LOC105283417
+LOC105283313
+LOC105285785
+LOC105285789
+LOC105281452
+LOC105279901
+LOC105286603
+LOC105287374
+LOC105282275
+LOC105275085
+LOC105281527
+LOC105278625
+LOC105278947
+LOC105276781
+LOC105287561
+LOC105278902
+LOC105283249
+LOC105283246
+LOC105286440
+LOC105280487
+LOC105286901
+LOC105286904
+LOC105280009
+LOC105274441
+LOC105274440
+LOC105275094
+LOC105278573
+LOC105279427
+LOC105280828
+LOC105287441
+LOC105275545
+LOC105287232
+LOC105287496
+LOC105287492
+LOC105280823
+LOC105277134
+LOC105287086
+LOC105285175
+LOC105279223
+LOC105287475
+LOC105283095
+LOC105283778
+LOC105281204
+LOC105286026
+LOC105282192
+LOC105275409
+LOC105287757
+LOC105278969
+LOC105283574
+LOC105286057
+LOC105275150
+LOC105278899
+LOC105283899
+LOC105282300
+LOC105275445
+LOC105283309
+LOC105287483
+LOC105282436
+LOC105277944
+LOC105287315
+LOC105280831
+LOC105280839
+LOC105282013
+LOC105284311
+LOC105285269
+LOC105282262
+LOC105281071
+LOC105287467
+LOC105276782
+LOC105282699
+LOC105284034
+LOC105274868
+LOC105282439
+LOC105279125
+LOC105278972
+LOC105278180
+LOC105285727
+LOC105278897
+LOC105282334
+LOC105285518
+LOC105285857
+LOC105281941
+LOC105287423
+LOC105276298
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0015074 [BP] 'DNA integration'
+Has GO                 Doesn't Have GO
+         Target Set: 19      366
+     Non-Target Set: 42      10004
+         odds-ratio: 12.365
+            P-value: 0.000
+
+GO:0004190 [MF] 'aspartic-type endopeptidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 5       380
+     Non-Target Set: 11      10035
+         odds-ratio: 12.004
+            P-value: 0.000
+
+GO:0003887 [MF] 'DNA-directed DNA polymerase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 5       380
+     Non-Target Set: 24      10022
+         odds-ratio: 5.495
+            P-value: 0.004
+
+GO:0016805 [MF] 'dipeptidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 11      374
+     Non-Target Set: 10      10036
+         odds-ratio: 29.518
+            P-value: 0.000
+
+GO:0031012 [CL] 'extracellular matrix'
+Has GO                 Doesn't Have GO
+         Target Set: 10      375
+     Non-Target Set: 13      10033
+         odds-ratio: 20.581
+            P-value: 0.000
+
+GO:0006508 [BP] 'proteolysis'
+Has GO                 Doesn't Have GO
+         Target Set: 28      357
+     Non-Target Set: 264     9782
+         odds-ratio: 2.906
+            P-value: 0.000
+
+GO:0008408 [MF] '3'-5' exonuclease activity'
+Has GO                 Doesn't Have GO
+         Target Set: 5       380
+     Non-Target Set: 17      10029
+         odds-ratio: 7.762
+            P-value: 0.001
+
+GO:0008237 [MF] 'metallopeptidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 10      375
+     Non-Target Set: 93      9953
+         odds-ratio: 2.854
+            P-value: 0.005
+
+GO:0004222 [MF] 'metalloendopeptidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 10      375
+     Non-Target Set: 47      9999
+         odds-ratio: 5.673
+            P-value: 0.000
+
+GO:0003676 [MF] 'nucleic acid binding'
+Has GO                 Doesn't Have GO
+         Target Set: 55      330
+     Non-Target Set: 688     9358
+         odds-ratio: 2.267
+            P-value: 0.000

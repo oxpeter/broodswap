@@ -1,0 +1,31 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0055114 [BP] 'oxidation-reduction process'
+
+17/162 (10.49%) of genes had enriched go terms:
+LOC105277903
+LOC105280511
+LOC105280833
+LOC105277384
+LOC105287874
+LOC105278497
+LOC105277313
+LOC105277318
+LOC105285126
+LOC105281376
+LOC105287703
+LOC105277285
+LOC105286634
+LOC105277844
+LOC105275636
+LOC105276979
+LOC105286126
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0055114 [BP] 'oxidation-reduction process'
+Has GO                 Doesn't Have GO
+         Target Set: 17      145
+     Non-Target Set: 330     9939
+         odds-ratio: 3.531
+            P-value: 0.000

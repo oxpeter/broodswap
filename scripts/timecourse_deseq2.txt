@@ -1,0 +1,117 @@
+# load DESeq2 library and functions:
+library("DESeq2")
+require(splines)
+library("pheatmap")
+library("RColorBrewer")
+library("PoiClaClu")
+
+
+##########################################################################
+#################### Broodswap both transitions ##########################
+#################### 12 hour timepoints only     ##########################
+#################### LRT analysis               ##########################
+##########################################################################
+
+# set all output to be written to file:
+zz <- file("deseq2_analysis.timecourse.R.out", open = "wt")
+sink(zz)
+sink(zz, type = "output")
+
+
+# set location of HTSeq count files:
+directory <- "/Volumes/antqueen/genomics/experiments/analyses/PRO20150611_time_course_analysis/htseq"
+
+# extract sample files:
+sampleFiles <- grep("^[RP].*(FL|FP|SP|SL)(12|24|48|96)[^R]*Aligned.out.bam.htseq.gene.out", list.files(directory), value=TRUE)
+
+
+#realSampleFiles <- sampleFiles[c(1,seq(4,26,1), seq(28,35,1), seq(38,45,1), seq(47,70,1))]
+realSampleFiles <- sampleFiles[c(1,4,5,6,seq(11,70,1))]
+realSampleFiles
+
+# assign phase and batch to each sample, based on filename:
+sampleCondition <- sub(".*(FP|FL|SP|SL)\\d\\d.*", "\\1", realSampleFiles)
+sampleCondition
+
+sampleTransition <- sub(".*(F|S)(P|L).*", "\\1", realSampleFiles)
+sampleTransition
+
+sampleTime <- sub(".*(FL|FP|SL|SP)([0-9][0-9]).*", "\\2", realSampleFiles)
+sampleTime
+
+sampleBatch <- sub("^[RMP]_(B[0-9]).*", "\\1", realSampleFiles)
+sampleBatch
+
+sampleColony <- sub("^[RMP]_B[0-9]_([A-Za-z0-9]*).*", "\\1", realSampleFiles)
+sampleColony
+
+# construct table, including design (incorporates batch effect in model)
+sampleTable <- data.frame(sampleName = realSampleFiles,
+                            fileName = realSampleFiles,
+                            condition = sampleCondition,
+                            transition = sampleTransition,
+                            time = sampleTime,
+                            colony = sampleColony,
+                            batch = sampleBatch)
+
+# set controls as time 0:
+sampleTable$time <- as.character(sampleTable$time)
+sampleTable$time[which(sampleTable$condition == "FL")] <- "0"
+sampleTable$time[which(sampleTable$condition == "SP")] <- "0"
+sampleTable$time <- as.factor(sampleTable$time)
+
+# alternatedesign= ~ batch + transition + bs(time, df=3) + transition:time
+dds <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
+                                    directory = directory,
+                                    design= ~ colony + transition + bs(time, df=3) + transition:bs(time, df=3))
+
+dds
+# check the comparisons being tested:
+
+dds_lrt <- DESeq(dds,
+                test="LRT",
+                full=~ colony + transition + bs(time, df=3) + transition:bs(time, df=3),
+                reduced=~ colony + transition + bs(time, df=3),
+                minReplicatesForReplace=3)
+
+resultsNames(dds_lrt)
+res_lrt <- results(dds_lrt, alpha=0.05)
+
+
+# order results on adjusted pvalue:
+resLRTOrdered <- res_lrt[order(res_lrt$padj),]
+summary(resLRTOrdered)
+
+
+
+# graph all variance adjusted genes:
+pdf('DEGs.timecourse_LRT.spline.pdf')
+plotMA(res_lrt,
+        main="Broodswap timecourse (~ colony + transition + bs(time) + trans:bs(time)",
+        ylim=c(-2,2))
+dev.off()
+
+# save pvalue and log fold change results for all genes to file:
+write.table(as.data.frame(resLRTOrdered), file="broodswap_timecourse.64_treatments.LRT_spline_analysis.pvalues.out", quote=FALSE)
+
+# produce and save the variance adjusted count values for each gene and save to file:
+vsd <- varianceStabilizingTransformation(dds)
+vstMat <- assay(vsd)
+write.table(as.data.frame(vstMat), file="broodswap_timecourse.64_treatments.vst.tbl", quote=FALSE)
+
+# stop reporting to file. If reporting is restarted, don't forget to add append = "TRUE" !!!
+sink(zz, type = "output")
+sink()
+
+# plot distances between samples
+colors <- colorRampPalette( rev(brewer.pal(9, "Blues")) )(255)
+poisd <- PoissonDistance(t(counts(dds)))
+samplePoisDistMatrix <- as.matrix( poisd$dd )
+rownames(samplePoisDistMatrix) <- paste( vsd$colony, vsd$time, sep="-" )
+colnames(samplePoisDistMatrix) <- NULL
+pheatmap(samplePoisDistMatrix,
+         clustering_distance_rows=poisd$dd,
+         clustering_distance_cols=poisd$dd,
+         col=colors)
+
+

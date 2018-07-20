@@ -1,0 +1,57 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+5 significantly enriched go terms found
+GO:0046933 [MF] 'proton-transporting ATP synthase activity, rotational mechanism'
+GO:0005834 [CL] 'heterotrimeric G-protein complex'
+GO:0046034 [BP] 'ATP metabolic process'
+GO:0015986 [BP] 'ATP synthesis coupled proton transport'
+GO:0035556 [BP] 'intracellular signal transduction'
+
+11/151 (7.28%) of genes had enriched go terms:
+LOC105280047
+LOC105281901
+LOC105282150
+LOC105279259
+LOC105281299
+LOC105280061
+LOC105284404
+LOC105285659
+LOC105279868
+LOC105281942
+LOC105283803
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0046034 [BP] 'ATP metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       149
+     Non-Target Set: 2       10278
+         odds-ratio: 68.980
+            P-value: 0.001
+
+GO:0015986 [BP] 'ATP synthesis coupled proton transport'
+Has GO                 Doesn't Have GO
+         Target Set: 4       147
+     Non-Target Set: 9       10271
+         odds-ratio: 31.054
+            P-value: 0.000
+
+GO:0046933 [MF] 'proton-transporting ATP synthase activity, rotational mechanism'
+Has GO                 Doesn't Have GO
+         Target Set: 3       148
+     Non-Target Set: 5       10275
+         odds-ratio: 41.655
+            P-value: 0.000
+
+GO:0035556 [BP] 'intracellular signal transduction'
+Has GO                 Doesn't Have GO
+         Target Set: 7       144
+     Non-Target Set: 80      10200
+         odds-ratio: 6.198
+            P-value: 0.000
+
+GO:0005834 [CL] 'heterotrimeric G-protein complex'
+Has GO                 Doesn't Have GO
+         Target Set: 2       149
+     Non-Target Set: 2       10278
+         odds-ratio: 68.980
+            P-value: 0.001

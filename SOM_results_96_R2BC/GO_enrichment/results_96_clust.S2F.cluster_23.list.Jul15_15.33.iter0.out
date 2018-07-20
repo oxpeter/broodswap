@@ -1,0 +1,24 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+2 significantly enriched go terms found
+GO:0008061 [MF] 'chitin binding'
+GO:0006030 [BP] 'chitin metabolic process'
+
+2/25 (8.00%) of genes had enriched go terms:
+LOC105279957
+LOC105275541
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0008061 [MF] 'chitin binding'
+Has GO                 Doesn't Have GO
+         Target Set: 2       23
+     Non-Target Set: 52      10354
+         odds-ratio: 17.314
+            P-value: 0.007
+
+GO:0006030 [BP] 'chitin metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       23
+     Non-Target Set: 52      10354
+         odds-ratio: 17.314
+            P-value: 0.007

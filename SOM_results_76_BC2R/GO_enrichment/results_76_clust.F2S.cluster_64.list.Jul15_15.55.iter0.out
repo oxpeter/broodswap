@@ -1,0 +1,73 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+6 significantly enriched go terms found
+GO:0003735 [MF] 'structural constituent of ribosome'
+GO:0005840 [CL] 'ribosome'
+GO:0015935 [CL] 'small ribosomal subunit'
+GO:0005622 [CL] 'intracellular'
+GO:0042254 [BP] 'ribosome biogenesis'
+GO:0006412 [BP] 'translation'
+
+19/117 (16.24%) of genes had enriched go terms:
+LOC105286253
+LOC105275356
+LOC105278527
+LOC105287956
+LOC105274852
+LOC105280297
+LOC105278306
+LOC105282389
+LOC105279141
+LOC105278500
+LOC105275885
+LOC105282696
+LOC105286451
+LOC105279353
+LOC105285232
+LOC105284726
+LOC105287842
+LOC105279653
+LOC105278298
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005840 [CL] 'ribosome'
+Has GO                 Doesn't Have GO
+         Target Set: 10      107
+     Non-Target Set: 105     10209
+         odds-ratio: 9.087
+            P-value: 0.000
+
+GO:0042254 [BP] 'ribosome biogenesis'
+Has GO                 Doesn't Have GO
+         Target Set: 4       113
+     Non-Target Set: 14      10300
+         odds-ratio: 26.043
+            P-value: 0.000
+
+GO:0015935 [CL] 'small ribosomal subunit'
+Has GO                 Doesn't Have GO
+         Target Set: 4       113
+     Non-Target Set: 9       10305
+         odds-ratio: 40.531
+            P-value: 0.000
+
+GO:0003735 [MF] 'structural constituent of ribosome'
+Has GO                 Doesn't Have GO
+         Target Set: 13      104
+     Non-Target Set: 110     10204
+         odds-ratio: 11.595
+            P-value: 0.000
+
+GO:0006412 [BP] 'translation'
+Has GO                 Doesn't Have GO
+         Target Set: 14      103
+     Non-Target Set: 114     10200
+         odds-ratio: 12.161
+            P-value: 0.000
+
+GO:0005622 [CL] 'intracellular'
+Has GO                 Doesn't Have GO
+         Target Set: 9       108
+     Non-Target Set: 236     10078
+         odds-ratio: 3.559
+            P-value: 0.002

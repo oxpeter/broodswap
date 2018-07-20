@@ -1,0 +1,67 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+6 significantly enriched go terms found
+GO:0008236 [MF] 'serine-type peptidase activity'
+GO:0008138 [MF] 'protein tyrosine/serine/threonine phosphatase activity'
+GO:0003735 [MF] 'structural constituent of ribosome'
+GO:0005840 [CL] 'ribosome'
+GO:0005622 [CL] 'intracellular'
+GO:0006412 [BP] 'translation'
+
+13/64 (20.31%) of genes had enriched go terms:
+LOC105284213
+LOC105276185
+LOC105287914
+LOC105281608
+LOC105280616
+LOC105275011
+LOC105286108
+LOC105288067
+LOC105275825
+LOC105283373
+LOC105278123
+LOC105276396
+LOC105282791
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005840 [CL] 'ribosome'
+Has GO                 Doesn't Have GO
+         Target Set: 9       55
+     Non-Target Set: 106     10261
+         odds-ratio: 15.840
+            P-value: 0.000
+
+GO:0008236 [MF] 'serine-type peptidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       62
+     Non-Target Set: 12      10355
+         odds-ratio: 27.836
+            P-value: 0.003
+
+GO:0008138 [MF] 'protein tyrosine/serine/threonine phosphatase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       62
+     Non-Target Set: 11      10356
+         odds-ratio: 30.370
+            P-value: 0.003
+
+GO:0003735 [MF] 'structural constituent of ribosome'
+Has GO                 Doesn't Have GO
+         Target Set: 9       55
+     Non-Target Set: 114     10253
+         odds-ratio: 14.717
+            P-value: 0.000
+
+GO:0006412 [BP] 'translation'
+Has GO                 Doesn't Have GO
+         Target Set: 9       55
+     Non-Target Set: 119     10248
+         odds-ratio: 14.092
+            P-value: 0.000
+
+GO:0005622 [CL] 'intracellular'
+Has GO                 Doesn't Have GO
+         Target Set: 7       57
+     Non-Target Set: 238     10129
+         odds-ratio: 5.227
+            P-value: 0.001

@@ -1,0 +1,38 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+3 significantly enriched go terms found
+GO:0005576 [CL] 'extracellular region'
+GO:0005615 [CL] 'extracellular space'
+GO:0035176 [BP] 'social behavior'
+
+8/76 (10.53%) of genes had enriched go terms:
+LOC105283720
+LOC105283606
+LOC105278356
+LOC105278932
+LOC105279397
+LOC105276678
+LOC105279396
+LOC105278167
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005576 [CL] 'extracellular region'
+Has GO                 Doesn't Have GO
+         Target Set: 5       71
+     Non-Target Set: 97      10258
+         odds-ratio: 7.447
+            P-value: 0.001
+
+GO:0005615 [CL] 'extracellular space'
+Has GO                 Doesn't Have GO
+         Target Set: 3       73
+     Non-Target Set: 13      10342
+         odds-ratio: 32.693
+            P-value: 0.000
+
+GO:0035176 [BP] 'social behavior'
+Has GO                 Doesn't Have GO
+         Target Set: 2       74
+     Non-Target Set: 1       10354
+         odds-ratio: 279.838
+            P-value: 0.000

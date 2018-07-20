@@ -1,0 +1,19 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0005856 [CL] 'cytoskeleton'
+
+5/187 (2.67%) of genes had enriched go terms:
+LOC105282053
+LOC105275598
+LOC105288031
+LOC105278662
+LOC105279297
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005856 [CL] 'cytoskeleton'
+Has GO                 Doesn't Have GO
+         Target Set: 5       182
+     Non-Target Set: 27      10217
+         odds-ratio: 10.396
+            P-value: 0.000

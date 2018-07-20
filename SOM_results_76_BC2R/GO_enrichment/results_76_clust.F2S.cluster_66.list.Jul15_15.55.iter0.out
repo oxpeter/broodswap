@@ -1,0 +1,16 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0005337 [MF] 'nucleoside transmembrane transporter activity'
+
+2/107 (1.87%) of genes had enriched go terms:
+LOC105287755
+LOC105288069
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005337 [MF] 'nucleoside transmembrane transporter activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       105
+     Non-Target Set: 1       10323
+         odds-ratio: 196.629
+            P-value: 0.000

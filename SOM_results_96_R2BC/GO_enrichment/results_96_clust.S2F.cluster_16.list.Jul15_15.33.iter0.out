@@ -1,0 +1,26 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+2 significantly enriched go terms found
+GO:0033180 [CL] 'proton-transporting V-type ATPase, V1 domain'
+GO:0015991 [BP] 'ATP hydrolysis coupled proton transport'
+
+4/209 (1.91%) of genes had enriched go terms:
+LOC105274872
+LOC105286286
+LOC105277773
+LOC105279769
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0015991 [BP] 'ATP hydrolysis coupled proton transport'
+Has GO                 Doesn't Have GO
+         Target Set: 4       205
+     Non-Target Set: 12      10210
+         odds-ratio: 16.602
+            P-value: 0.000
+
+GO:0033180 [CL] 'proton-transporting V-type ATPase, V1 domain'
+Has GO                 Doesn't Have GO
+         Target Set: 3       206
+     Non-Target Set: 2       10220
+         odds-ratio: 74.417
+            P-value: 0.000

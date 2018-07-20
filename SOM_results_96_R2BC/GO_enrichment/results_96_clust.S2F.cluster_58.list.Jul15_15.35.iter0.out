@@ -1,0 +1,24 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0043565 [MF] 'sequence-specific DNA binding'
+
+10/126 (7.94%) of genes had enriched go terms:
+LOC105284073
+LOC105285150
+LOC105286447
+LOC105282931
+LOC105282161
+LOC105276821
+LOC105282189
+LOC105288003
+LOC105276574
+LOC105276057
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0043565 [MF] 'sequence-specific DNA binding'
+Has GO                 Doesn't Have GO
+         Target Set: 10      116
+     Non-Target Set: 164     10141
+         odds-ratio: 5.331
+            P-value: 0.000

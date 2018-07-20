@@ -1,0 +1,28 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+2 significantly enriched go terms found
+GO:0004812 [MF] 'aminoacyl-tRNA ligase activity'
+GO:0006418 [BP] 'tRNA aminoacylation for protein translation'
+
+6/141 (4.26%) of genes had enriched go terms:
+LOC105282042
+LOC105275579
+LOC105282217
+LOC105283214
+LOC105285636
+LOC105279379
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0004812 [MF] 'aminoacyl-tRNA ligase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 6       135
+     Non-Target Set: 29      10261
+         odds-ratio: 15.726
+            P-value: 0.000
+
+GO:0006418 [BP] 'tRNA aminoacylation for protein translation'
+Has GO                 Doesn't Have GO
+         Target Set: 6       135
+     Non-Target Set: 29      10261
+         odds-ratio: 15.726
+            P-value: 0.000

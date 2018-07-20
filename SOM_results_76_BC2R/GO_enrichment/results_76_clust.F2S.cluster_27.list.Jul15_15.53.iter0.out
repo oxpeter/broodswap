@@ -1,0 +1,17 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0006366 [BP] 'transcription from RNA polymerase II promoter'
+
+3/202 (1.49%) of genes had enriched go terms:
+LOC105278402
+LOC105278383
+LOC105280374
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0006366 [BP] 'transcription from RNA polymerase II promoter'
+Has GO                 Doesn't Have GO
+         Target Set: 3       199
+     Non-Target Set: 3       10226
+         odds-ratio: 51.387
+            P-value: 0.000

@@ -1,0 +1,80 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+7 significantly enriched go terms found
+GO:0008061 [MF] 'chitin binding'
+GO:0005319 [MF] 'lipid transporter activity'
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+GO:0005506 [MF] 'iron ion binding'
+GO:0005576 [CL] 'extracellular region'
+GO:0006030 [BP] 'chitin metabolic process'
+GO:0006869 [BP] 'lipid transport'
+
+18/156 (11.54%) of genes had enriched go terms:
+LOC105281428_Q
+LOC105281428_W
+LOC105278932
+LOC105286382
+LOC105277330
+LOC105281161
+LOC105278524
+LOC105277316
+LOC105277317
+LOC105274946
+LOC105283725
+LOC105284203
+LOC105278344
+LOC105278349
+LOC105274888
+LOC105285569
+LOC105286647
+LOC105278167
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0008061 [MF] 'chitin binding'
+Has GO                 Doesn't Have GO
+         Target Set: 5       151
+     Non-Target Set: 49      10226
+         odds-ratio: 6.910
+            P-value: 0.001
+
+GO:0005576 [CL] 'extracellular region'
+Has GO                 Doesn't Have GO
+         Target Set: 8       148
+     Non-Target Set: 94      10181
+         odds-ratio: 5.855
+            P-value: 0.000
+
+GO:0006030 [BP] 'chitin metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 5       151
+     Non-Target Set: 49      10226
+         odds-ratio: 6.910
+            P-value: 0.001
+
+GO:0005319 [MF] 'lipid transporter activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       153
+     Non-Target Set: 10      10265
+         odds-ratio: 20.127
+            P-value: 0.001
+
+GO:0006869 [BP] 'lipid transport'
+Has GO                 Doesn't Have GO
+         Target Set: 4       152
+     Non-Target Set: 12      10263
+         odds-ratio: 22.507
+            P-value: 0.000
+
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+Has GO                 Doesn't Have GO
+         Target Set: 6       150
+     Non-Target Set: 86      10189
+         odds-ratio: 4.739
+            P-value: 0.003
+
+GO:0005506 [MF] 'iron ion binding'
+Has GO                 Doesn't Have GO
+         Target Set: 7       149
+     Non-Target Set: 106     10169
+         odds-ratio: 4.507
+            P-value: 0.002

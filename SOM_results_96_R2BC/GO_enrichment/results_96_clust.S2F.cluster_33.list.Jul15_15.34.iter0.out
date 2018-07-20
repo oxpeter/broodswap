@@ -1,0 +1,35 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+3 significantly enriched go terms found
+GO:0008479 [MF] 'queuine tRNA-ribosyltransferase activity'
+GO:0046873 [MF] 'metal ion transmembrane transporter activity'
+GO:0008616 [BP] 'queuosine biosynthetic process'
+
+5/255 (1.96%) of genes had enriched go terms:
+LOC105276146
+LOC105282566
+LOC105282764
+LOC105284038
+LOC105285223
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0008616 [BP] 'queuosine biosynthetic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       253
+     Non-Target Set: 0       10176
+         odds-ratio: inf
+            P-value: 0.001
+
+GO:0008479 [MF] 'queuine tRNA-ribosyltransferase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       253
+     Non-Target Set: 0       10176
+         odds-ratio: inf
+            P-value: 0.001
+
+GO:0046873 [MF] 'metal ion transmembrane transporter activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       252
+     Non-Target Set: 4       10172
+         odds-ratio: 30.274
+            P-value: 0.000

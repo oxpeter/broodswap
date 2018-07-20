@@ -1,0 +1,66 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+7 significantly enriched go terms found
+GO:0003995 [MF] 'acyl-CoA dehydrogenase activity'
+GO:0016627 [MF] 'oxidoreductase activity, acting on the CH-CH group of donors'
+GO:0050660 [MF] 'flavin adenine dinucleotide binding'
+GO:0006635 [BP] 'fatty acid beta-oxidation'
+GO:0006631 [BP] 'fatty acid metabolic process'
+GO:0055114 [BP] 'oxidation-reduction process'
+GO:0008152 [BP] 'metabolic process'
+
+4/27 (14.81%) of genes had enriched go terms:
+LOC105276471
+LOC105279823
+LOC105278763
+LOC105276635
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0003995 [MF] 'acyl-CoA dehydrogenase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       25
+     Non-Target Set: 8       10396
+         odds-ratio: 103.960
+            P-value: 0.000
+
+GO:0006635 [BP] 'fatty acid beta-oxidation'
+Has GO                 Doesn't Have GO
+         Target Set: 2       25
+     Non-Target Set: 1       10403
+         odds-ratio: 832.240
+            P-value: 0.000
+
+GO:0006631 [BP] 'fatty acid metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       25
+     Non-Target Set: 2       10402
+         odds-ratio: 416.080
+            P-value: 0.000
+
+GO:0016627 [MF] 'oxidoreductase activity, acting on the CH-CH group of donors'
+Has GO                 Doesn't Have GO
+         Target Set: 2       25
+     Non-Target Set: 17      10387
+         odds-ratio: 48.880
+            P-value: 0.001
+
+GO:0050660 [MF] 'flavin adenine dinucleotide binding'
+Has GO                 Doesn't Have GO
+         Target Set: 2       25
+     Non-Target Set: 46      10358
+         odds-ratio: 18.014
+            P-value: 0.007
+
+GO:0055114 [BP] 'oxidation-reduction process'
+Has GO                 Doesn't Have GO
+         Target Set: 4       23
+     Non-Target Set: 343     10061
+         odds-ratio: 5.101
+            P-value: 0.012
+
+GO:0008152 [BP] 'metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 4       23
+     Non-Target Set: 301     10103
+         odds-ratio: 5.837
+            P-value: 0.007

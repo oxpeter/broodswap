@@ -1,0 +1,39 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+3 significantly enriched go terms found
+GO:0005328 [MF] 'neurotransmitter:sodium symporter activity'
+GO:0016021 [CL] 'integral component of membrane'
+GO:0006836 [BP] 'neurotransmitter transport'
+
+9/51 (17.65%) of genes had enriched go terms:
+LOC105282964
+LOC105277206
+LOC105282020
+LOC105279861
+LOC105276270
+LOC105275293
+LOC105281048
+LOC105286574
+LOC105281366
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005328 [MF] 'neurotransmitter:sodium symporter activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       48
+     Non-Target Set: 13      10367
+         odds-ratio: 49.841
+            P-value: 0.000
+
+GO:0006836 [BP] 'neurotransmitter transport'
+Has GO                 Doesn't Have GO
+         Target Set: 3       48
+     Non-Target Set: 14      10366
+         odds-ratio: 46.277
+            P-value: 0.000
+
+GO:0016021 [CL] 'integral component of membrane'
+Has GO                 Doesn't Have GO
+         Target Set: 9       42
+     Non-Target Set: 575     9805
+         odds-ratio: 3.654
+            P-value: 0.002

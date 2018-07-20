@@ -1,0 +1,26 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0000166 [MF] 'nucleotide binding'
+
+12/179 (6.70%) of genes had enriched go terms:
+LOC105284881
+LOC105286621
+LOC105282865
+LOC105282152
+LOC105279222
+LOC105278647
+LOC105284418
+LOC105284338
+LOC105281603
+LOC105275651
+LOC105278023
+LOC105279379
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0000166 [MF] 'nucleotide binding'
+Has GO                 Doesn't Have GO
+         Target Set: 12      167
+     Non-Target Set: 201     10051
+         odds-ratio: 3.593
+            P-value: 0.000

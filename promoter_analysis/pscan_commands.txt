@@ -1,0 +1,11 @@
+## Promoter analysis using pscan
+# I first downloaded the JASPAR matrices for Drosophila, then converted them to the .wil format pscan wants.
+
+
+# then all cluster files were run using the insect JASPAR matrices, the Cbir background promoter sequence fasta file, and the cluster-specific promoter fasta file:
+run from:
+/Volumes/antqueen/genomics/experiments/analyses/PRO20160617_broodswap_subtraction/SOM/promoter_analysis
+
+for CLUSTER in $(ls promoters_F2S | grep 'fasta$'); do echo $CLUSTER; pscan -q promoters_F2S/$CLUSTER -p promoters_all_genes.Aug04_20.57.promoters.fasta -l Insect_promoter_matrix.wil; echo "###"$CLUSTER; done 
+
+for CLUSTER in $(ls promoters_S2F | grep 'fasta$'); do pscan -q promoters_S2F/$CLUSTER -p promoters_all_genes.Aug04_20.57.promoters.fasta -l Insect_promoter_matrix.wil; echo "###"$CLUSTER; done 

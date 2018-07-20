@@ -1,0 +1,24 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0008237 [MF] 'metallopeptidase activity'
+
+10/206 (4.85%) of genes had enriched go terms:
+LOC105287090
+LOC105287761
+LOC105287758
+LOC105283655
+LOC105280695
+LOC105284106
+LOC105282692
+LOC105283175
+LOC105281396
+LOC105285563
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0008237 [MF] 'metallopeptidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 10      196
+     Non-Target Set: 93      10132
+         odds-ratio: 5.558
+            P-value: 0.000

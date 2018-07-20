@@ -1,0 +1,16 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0016972 [MF] 'thiol oxidase activity'
+
+2/140 (1.43%) of genes had enriched go terms:
+LOC105286703
+LOC105276449
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0016972 [MF] 'thiol oxidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       138
+     Non-Target Set: 0       10291
+         odds-ratio: inf
+            P-value: 0.000

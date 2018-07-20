@@ -1,0 +1,39 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+3 significantly enriched go terms found
+GO:0020037 [MF] 'heme binding'
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+GO:0005506 [MF] 'iron ion binding'
+
+9/167 (5.39%) of genes had enriched go terms:
+LOC105275882
+LOC105274947
+LOC105275890
+LOC105280474
+LOC105287237
+LOC105277283
+LOC105275733
+LOC105277917
+LOC105277318
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0020037 [MF] 'heme binding'
+Has GO                 Doesn't Have GO
+         Target Set: 9       158
+     Non-Target Set: 111     10153
+         odds-ratio: 5.210
+            P-value: 0.000
+
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+Has GO                 Doesn't Have GO
+         Target Set: 9       158
+     Non-Target Set: 83      10181
+         odds-ratio: 6.987
+            P-value: 0.000
+
+GO:0005506 [MF] 'iron ion binding'
+Has GO                 Doesn't Have GO
+         Target Set: 9       158
+     Non-Target Set: 104     10160
+         odds-ratio: 5.565
+            P-value: 0.000

@@ -1,0 +1,109 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+8 significantly enriched go terms found
+GO:0020037 [MF] 'heme binding'
+GO:0031177 [MF] 'phosphopantetheine binding'
+GO:0016491 [MF] 'oxidoreductase activity'
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+GO:0005215 [MF] 'transporter activity'
+GO:0005506 [MF] 'iron ion binding'
+GO:0055114 [BP] 'oxidation-reduction process'
+GO:0008152 [BP] 'metabolic process'
+
+39/135 (28.89%) of genes had enriched go terms:
+LOC105278774
+LOC105279082
+LOC105277346
+LOC105275280
+LOC105284362
+LOC105284890
+LOC105278060
+LOC105278668
+LOC105283404
+LOC105275069
+LOC105281456
+LOC105275364
+LOC105276017
+LOC105287267
+LOC105274946
+LOC105283938
+LOC105275890
+LOC105284130
+LOC105283937
+LOC105281476
+LOC105284203
+LOC105282757
+LOC105282759
+LOC105278222
+LOC105274797
+LOC105278895
+LOC105274794
+LOC105282231
+LOC105285513
+LOC105274659
+LOC105287631
+LOC105275627
+LOC105287120
+LOC105277111
+LOC105286229
+LOC105275733
+LOC105277917
+LOC105283735
+LOC105280238
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0055114 [BP] 'oxidation-reduction process'
+Has GO                 Doesn't Have GO
+         Target Set: 23      112
+     Non-Target Set: 324     9972
+         odds-ratio: 6.320
+            P-value: 0.000
+
+GO:0020037 [MF] 'heme binding'
+Has GO                 Doesn't Have GO
+         Target Set: 14      121
+     Non-Target Set: 106     10190
+         odds-ratio: 11.123
+            P-value: 0.000
+
+GO:0031177 [MF] 'phosphopantetheine binding'
+Has GO                 Doesn't Have GO
+         Target Set: 2       133
+     Non-Target Set: 3       10293
+         odds-ratio: 51.594
+            P-value: 0.002
+
+GO:0008152 [BP] 'metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 14      121
+     Non-Target Set: 291     10005
+         odds-ratio: 3.978
+            P-value: 0.000
+
+GO:0016491 [MF] 'oxidoreductase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 10      125
+     Non-Target Set: 184     10112
+         odds-ratio: 4.397
+            P-value: 0.000
+
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+Has GO                 Doesn't Have GO
+         Target Set: 13      122
+     Non-Target Set: 79      10217
+         odds-ratio: 13.781
+            P-value: 0.000
+
+GO:0005215 [MF] 'transporter activity'
+Has GO                 Doesn't Have GO
+         Target Set: 6       129
+     Non-Target Set: 82      10214
+         odds-ratio: 5.794
+            P-value: 0.001
+
+GO:0005506 [MF] 'iron ion binding'
+Has GO                 Doesn't Have GO
+         Target Set: 15      120
+     Non-Target Set: 98      10198
+         odds-ratio: 13.008
+            P-value: 0.000

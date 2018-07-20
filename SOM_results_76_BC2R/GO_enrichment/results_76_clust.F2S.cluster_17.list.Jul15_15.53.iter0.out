@@ -1,0 +1,26 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0015074 [BP] 'DNA integration'
+
+12/481 (2.49%) of genes had enriched go terms:
+LOC105283242
+LOC105278947
+LOC105278901
+LOC105287475
+LOC105283778
+LOC105287884
+LOC105278969
+LOC105283055
+LOC105275939
+LOC105280630
+LOC105275084
+LOC105275140
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0015074 [BP] 'DNA integration'
+Has GO                 Doesn't Have GO
+         Target Set: 12      469
+     Non-Target Set: 49      9901
+         odds-ratio: 5.170
+            P-value: 0.000

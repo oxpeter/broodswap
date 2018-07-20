@@ -1,0 +1,113 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+11 significantly enriched go terms found
+GO:0031177 [MF] 'phosphopantetheine binding'
+GO:0016740 [MF] 'transferase activity'
+GO:0016491 [MF] 'oxidoreductase activity'
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+GO:0020037 [MF] 'heme binding'
+GO:0016788 [MF] 'hydrolase activity, acting on ester bonds'
+GO:0005506 [MF] 'iron ion binding'
+GO:0055114 [BP] 'oxidation-reduction process'
+GO:0008152 [BP] 'metabolic process'
+GO:0009058 [BP] 'biosynthetic process'
+GO:0006629 [BP] 'lipid metabolic process'
+
+19/78 (24.36%) of genes had enriched go terms:
+LOC105274797
+LOC105278895
+LOC105285570
+LOC105286065
+LOC105274659
+LOC105275082
+LOC105277346
+LOC105274909
+LOC105275280
+LOC105281456
+LOC105276900
+LOC105277111
+LOC105287631
+LOC105283735
+LOC105283404
+LOC105279701
+LOC105276017
+LOC105275000
+LOC105278734
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0031177 [MF] 'phosphopantetheine binding'
+Has GO                 Doesn't Have GO
+         Target Set: 2       76
+     Non-Target Set: 3       10350
+         odds-ratio: 90.789
+            P-value: 0.001
+
+GO:0016740 [MF] 'transferase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       76
+     Non-Target Set: 16      10337
+         odds-ratio: 17.002
+            P-value: 0.008
+
+GO:0016491 [MF] 'oxidoreductase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 6       72
+     Non-Target Set: 188     10165
+         odds-ratio: 4.506
+            P-value: 0.003
+
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+Has GO                 Doesn't Have GO
+         Target Set: 4       74
+     Non-Target Set: 88      10265
+         odds-ratio: 6.305
+            P-value: 0.005
+
+GO:0055114 [BP] 'oxidation-reduction process'
+Has GO                 Doesn't Have GO
+         Target Set: 9       69
+     Non-Target Set: 338     10015
+         odds-ratio: 3.865
+            P-value: 0.001
+
+GO:0020037 [MF] 'heme binding'
+Has GO                 Doesn't Have GO
+         Target Set: 5       73
+     Non-Target Set: 115     10238
+         odds-ratio: 6.098
+            P-value: 0.002
+
+GO:0016788 [MF] 'hydrolase activity, acting on ester bonds'
+Has GO                 Doesn't Have GO
+         Target Set: 5       73
+     Non-Target Set: 28      10325
+         odds-ratio: 25.257
+            P-value: 0.000
+
+GO:0008152 [BP] 'metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 10      68
+     Non-Target Set: 295     10058
+         odds-ratio: 5.014
+            P-value: 0.000
+
+GO:0009058 [BP] 'biosynthetic process'
+Has GO                 Doesn't Have GO
+         Target Set: 4       74
+     Non-Target Set: 33      10320
+         odds-ratio: 16.904
+            P-value: 0.000
+
+GO:0006629 [BP] 'lipid metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 3       75
+     Non-Target Set: 37      10316
+         odds-ratio: 11.152
+            P-value: 0.003
+
+GO:0005506 [MF] 'iron ion binding'
+Has GO                 Doesn't Have GO
+         Target Set: 5       73
+     Non-Target Set: 108     10245
+         odds-ratio: 6.497
+            P-value: 0.002

@@ -1,0 +1,88 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+7 significantly enriched go terms found
+GO:0043169 [MF] 'cation binding'
+GO:0004252 [MF] 'serine-type endopeptidase activity'
+GO:0004132 [MF] 'dCMP deaminase activity'
+GO:0016787 [MF] 'hydrolase activity'
+GO:0003824 [MF] 'catalytic activity'
+GO:0006220 [BP] 'pyrimidine nucleotide metabolic process'
+GO:0006508 [BP] 'proteolysis'
+
+26/132 (19.70%) of genes had enriched go terms:
+LOC105283823
+LOC105285372
+LOC105276237
+LOC105278064
+LOC105286466
+LOC105286874
+LOC105279319
+LOC105278724
+LOC105278512
+LOC105284107
+LOC105279281
+LOC105286596
+LOC105278569
+LOC105274787
+LOC105274788
+LOC105279294
+LOC105279599
+LOC105275825
+LOC105278819
+LOC105278548
+LOC105281091
+LOC105287030
+LOC105285564
+LOC105276353
+LOC105284102
+LOC105286811
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0006220 [BP] 'pyrimidine nucleotide metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       130
+     Non-Target Set: 0       10299
+         odds-ratio: inf
+            P-value: 0.000
+
+GO:0043169 [MF] 'cation binding'
+Has GO                 Doesn't Have GO
+         Target Set: 3       129
+     Non-Target Set: 7       10292
+         odds-ratio: 34.193
+            P-value: 0.000
+
+GO:0004252 [MF] 'serine-type endopeptidase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 6       126
+     Non-Target Set: 78      10221
+         odds-ratio: 6.240
+            P-value: 0.001
+
+GO:0004132 [MF] 'dCMP deaminase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       130
+     Non-Target Set: 0       10299
+         odds-ratio: inf
+            P-value: 0.000
+
+GO:0006508 [BP] 'proteolysis'
+Has GO                 Doesn't Have GO
+         Target Set: 13      119
+     Non-Target Set: 279     10020
+         odds-ratio: 3.923
+            P-value: 0.000
+
+GO:0016787 [MF] 'hydrolase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 8       124
+     Non-Target Set: 72      10227
+         odds-ratio: 9.164
+            P-value: 0.000
+
+GO:0003824 [MF] 'catalytic activity'
+Has GO                 Doesn't Have GO
+         Target Set: 11      121
+     Non-Target Set: 330     9969
+         odds-ratio: 2.746
+            P-value: 0.004

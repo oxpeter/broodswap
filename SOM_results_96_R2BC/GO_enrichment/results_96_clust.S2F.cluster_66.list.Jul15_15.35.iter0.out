@@ -1,0 +1,34 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+3 significantly enriched go terms found
+GO:0005248 [MF] 'voltage-gated sodium channel activity'
+GO:0001518 [CL] 'voltage-gated sodium channel complex'
+GO:0016012 [CL] 'sarcoglycan complex'
+
+4/173 (2.31%) of genes had enriched go terms:
+LOC105285619
+LOC105277149
+LOC105281760
+LOC105281661
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0001518 [CL] 'voltage-gated sodium channel complex'
+Has GO                 Doesn't Have GO
+         Target Set: 2       171
+     Non-Target Set: 0       10258
+         odds-ratio: inf
+            P-value: 0.000
+
+GO:0005248 [MF] 'voltage-gated sodium channel activity'
+Has GO                 Doesn't Have GO
+         Target Set: 2       171
+     Non-Target Set: 0       10258
+         odds-ratio: inf
+            P-value: 0.000
+
+GO:0016012 [CL] 'sarcoglycan complex'
+Has GO                 Doesn't Have GO
+         Target Set: 2       171
+     Non-Target Set: 1       10257
+         odds-ratio: 119.965
+            P-value: 0.001

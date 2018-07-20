@@ -1,0 +1,27 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+2 significantly enriched go terms found
+GO:0008146 [MF] 'sulfotransferase activity'
+GO:0005783 [CL] 'endoplasmic reticulum'
+
+5/47 (10.64%) of genes had enriched go terms:
+LOC105286868
+LOC105287043
+LOC105280782
+LOC105275360
+LOC105281651
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005783 [CL] 'endoplasmic reticulum'
+Has GO                 Doesn't Have GO
+         Target Set: 2       45
+     Non-Target Set: 21      10363
+         odds-ratio: 21.932
+            P-value: 0.005
+
+GO:0008146 [MF] 'sulfotransferase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       44
+     Non-Target Set: 14      10370
+         odds-ratio: 50.503
+            P-value: 0.000

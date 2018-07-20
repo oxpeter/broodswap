@@ -1,0 +1,24 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+2 significantly enriched go terms found
+GO:0004553 [MF] 'hydrolase activity, hydrolyzing O-glycosyl compounds'
+GO:0005975 [BP] 'carbohydrate metabolic process'
+
+2/20 (10.00%) of genes had enriched go terms:
+LOC105274738
+LOC105276398
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005975 [BP] 'carbohydrate metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       18
+     Non-Target Set: 94      10317
+         odds-ratio: 12.195
+            P-value: 0.014
+
+GO:0004553 [MF] 'hydrolase activity, hydrolyzing O-glycosyl compounds'
+Has GO                 Doesn't Have GO
+         Target Set: 2       18
+     Non-Target Set: 30      10381
+         odds-ratio: 38.448
+            P-value: 0.002

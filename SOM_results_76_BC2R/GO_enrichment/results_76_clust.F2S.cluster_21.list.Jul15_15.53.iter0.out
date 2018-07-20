@@ -1,0 +1,31 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+2 significantly enriched go terms found
+GO:0005216 [MF] 'ion channel activity'
+GO:0006811 [BP] 'ion transport'
+
+9/315 (2.86%) of genes had enriched go terms:
+LOC105285985
+LOC105277685
+LOC105274750
+LOC105286156
+LOC105279967
+LOC105282237
+LOC105274799
+LOC105275420
+LOC105281665
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0006811 [BP] 'ion transport'
+Has GO                 Doesn't Have GO
+         Target Set: 9       306
+     Non-Target Set: 60      10056
+         odds-ratio: 4.929
+            P-value: 0.000
+
+GO:0005216 [MF] 'ion channel activity'
+Has GO                 Doesn't Have GO
+         Target Set: 8       307
+     Non-Target Set: 50      10066
+         odds-ratio: 5.246
+            P-value: 0.000

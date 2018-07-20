@@ -1,0 +1,81 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+6 significantly enriched go terms found
+GO:0016740 [MF] 'transferase activity'
+GO:0016788 [MF] 'hydrolase activity, acting on ester bonds'
+GO:0016491 [MF] 'oxidoreductase activity'
+GO:0055114 [BP] 'oxidation-reduction process'
+GO:0008152 [BP] 'metabolic process'
+GO:0019441 [BP] 'tryptophan catabolic process to kynurenine'
+
+27/119 (22.69%) of genes had enriched go terms:
+LOC105286065
+LOC105277981
+LOC105280122
+LOC105282065
+LOC105274913
+LOC105280753
+LOC105284156
+LOC105280263
+LOC105281822
+LOC105283779
+LOC105275362
+LOC105274874
+LOC105280678
+LOC105285031
+LOC105277283
+LOC105276257
+LOC105277277
+LOC105283212
+LOC105287029
+LOC105275000
+LOC105280891
+LOC105278217
+LOC105276597
+LOC105285114
+LOC105284105
+LOC105279620
+LOC105281240
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0055114 [BP] 'oxidation-reduction process'
+Has GO                 Doesn't Have GO
+         Target Set: 13      106
+     Non-Target Set: 334     9978
+         odds-ratio: 3.664
+            P-value: 0.000
+
+GO:0016740 [MF] 'transferase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       116
+     Non-Target Set: 15      10297
+         odds-ratio: 17.753
+            P-value: 0.001
+
+GO:0008152 [BP] 'metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 16      103
+     Non-Target Set: 289     10023
+         odds-ratio: 5.387
+            P-value: 0.000
+
+GO:0016788 [MF] 'hydrolase activity, acting on ester bonds'
+Has GO                 Doesn't Have GO
+         Target Set: 4       115
+     Non-Target Set: 29      10283
+         odds-ratio: 12.333
+            P-value: 0.001
+
+GO:0016491 [MF] 'oxidoreductase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 8       111
+     Non-Target Set: 186     10126
+         odds-ratio: 3.924
+            P-value: 0.002
+
+GO:0019441 [BP] 'tryptophan catabolic process to kynurenine'
+Has GO                 Doesn't Have GO
+         Target Set: 2       117
+     Non-Target Set: 0       10312
+         odds-ratio: inf
+            P-value: 0.000

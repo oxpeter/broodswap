@@ -1,0 +1,77 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+7 significantly enriched go terms found
+GO:0017048 [MF] 'Rho GTPase binding'
+GO:0043565 [MF] 'sequence-specific DNA binding'
+GO:0030036 [BP] 'actin cytoskeleton organization'
+GO:0006355 [BP] 'regulation of transcription, DNA-templated'
+GO:0006812 [BP] 'cation transport'
+GO:0035556 [BP] 'intracellular signal transduction'
+GO:0016043 [BP] 'cellular component organization'
+
+15/67 (22.39%) of genes had enriched go terms:
+LOC105275235
+LOC105274942
+LOC105279147
+LOC105274578
+LOC105278291
+LOC105277003
+LOC105277170
+LOC105276513
+LOC105276771
+LOC105281807
+LOC105274520
+LOC105279805
+LOC105285796
+LOC105274487
+LOC105279190
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0030036 [BP] 'actin cytoskeleton organization'
+Has GO                 Doesn't Have GO
+         Target Set: 2       65
+     Non-Target Set: 7       10357
+         odds-ratio: 45.525
+            P-value: 0.001
+
+GO:0006355 [BP] 'regulation of transcription, DNA-templated'
+Has GO                 Doesn't Have GO
+         Target Set: 7       60
+     Non-Target Set: 298     10066
+         odds-ratio: 3.941
+            P-value: 0.003
+
+GO:0017048 [MF] 'Rho GTPase binding'
+Has GO                 Doesn't Have GO
+         Target Set: 2       65
+     Non-Target Set: 3       10361
+         odds-ratio: 106.267
+            P-value: 0.000
+
+GO:0043565 [MF] 'sequence-specific DNA binding'
+Has GO                 Doesn't Have GO
+         Target Set: 5       62
+     Non-Target Set: 169     10195
+         odds-ratio: 4.865
+            P-value: 0.005
+
+GO:0006812 [BP] 'cation transport'
+Has GO                 Doesn't Have GO
+         Target Set: 2       65
+     Non-Target Set: 15      10349
+         odds-ratio: 21.229
+            P-value: 0.005
+
+GO:0035556 [BP] 'intracellular signal transduction'
+Has GO                 Doesn't Have GO
+         Target Set: 4       63
+     Non-Target Set: 83      10281
+         odds-ratio: 7.865
+            P-value: 0.002
+
+GO:0016043 [BP] 'cellular component organization'
+Has GO                 Doesn't Have GO
+         Target Set: 2       65
+     Non-Target Set: 4       10360
+         odds-ratio: 79.692
+            P-value: 0.001

@@ -1,0 +1,112 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+10 significantly enriched go terms found
+GO:0016641 [MF] 'oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor'
+GO:0004930 [MF] 'G-protein coupled receptor activity'
+GO:0020037 [MF] 'heme binding'
+GO:0000062 [MF] 'fatty-acyl-CoA binding'
+GO:0003824 [MF] 'catalytic activity'
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+GO:0005506 [MF] 'iron ion binding'
+GO:0055114 [BP] 'oxidation-reduction process'
+GO:0008152 [BP] 'metabolic process'
+GO:0008299 [BP] 'isoprenoid biosynthetic process'
+
+26/65 (40.00%) of genes had enriched go terms:
+LOC105286164
+LOC105278879
+LOC105282317
+LOC105274959
+LOC105276082
+LOC105278734
+LOC105285305
+LOC105274802
+LOC105275509
+LOC105279542
+LOC105283675
+LOC105283402
+LOC105282512
+LOC105287247
+LOC105278218
+LOC105276822
+LOC105277916
+LOC105281903
+LOC105284080
+LOC105280090
+LOC105278044
+LOC105281554
+LOC105280506
+LOC105286935
+LOC105275072
+LOC105278221
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0016641 [MF] 'oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor'
+Has GO                 Doesn't Have GO
+         Target Set: 2       63
+     Non-Target Set: 1       10365
+         odds-ratio: 329.048
+            P-value: 0.000
+
+GO:0004930 [MF] 'G-protein coupled receptor activity'
+Has GO                 Doesn't Have GO
+         Target Set: 4       61
+     Non-Target Set: 103     10263
+         odds-ratio: 6.534
+            P-value: 0.004
+
+GO:0055114 [BP] 'oxidation-reduction process'
+Has GO                 Doesn't Have GO
+         Target Set: 8       57
+     Non-Target Set: 339     10027
+         odds-ratio: 4.151
+            P-value: 0.001
+
+GO:0020037 [MF] 'heme binding'
+Has GO                 Doesn't Have GO
+         Target Set: 5       60
+     Non-Target Set: 115     10251
+         odds-ratio: 7.428
+            P-value: 0.001
+
+GO:0008152 [BP] 'metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 8       57
+     Non-Target Set: 297     10069
+         odds-ratio: 4.758
+            P-value: 0.001
+
+GO:0000062 [MF] 'fatty-acyl-CoA binding'
+Has GO                 Doesn't Have GO
+         Target Set: 2       63
+     Non-Target Set: 3       10363
+         odds-ratio: 109.661
+            P-value: 0.000
+
+GO:0003824 [MF] 'catalytic activity'
+Has GO                 Doesn't Have GO
+         Target Set: 10      55
+     Non-Target Set: 331     10035
+         odds-ratio: 5.512
+            P-value: 0.000
+
+GO:0008299 [BP] 'isoprenoid biosynthetic process'
+Has GO                 Doesn't Have GO
+         Target Set: 2       63
+     Non-Target Set: 12      10354
+         odds-ratio: 27.392
+            P-value: 0.003
+
+GO:0016705 [MF] 'oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen'
+Has GO                 Doesn't Have GO
+         Target Set: 4       61
+     Non-Target Set: 88      10278
+         odds-ratio: 7.659
+            P-value: 0.003
+
+GO:0005506 [MF] 'iron ion binding'
+Has GO                 Doesn't Have GO
+         Target Set: 4       61
+     Non-Target Set: 109     10257
+         odds-ratio: 6.171
+            P-value: 0.005

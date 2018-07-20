@@ -1,0 +1,88 @@
+# load DESeq2 library and functions:
+library("DESeq2")
+
+##########################################################################
+#################### Broodswap both transitions ##########################
+#################### 12 hour timepoints only     ##########################
+#################### LRT analysis               ##########################
+##########################################################################
+
+# set all output to be written to file:
+zz <- file("deseq2_analysis.R.out", open = "wt")
+sink(zz)
+sink(zz, type = "output")
+
+
+# set location of HTSeq count files:
+directory <- "/Volumes/antqueen/genomics/experiments/analyses/PRO20150611_time_course_analysis/htseq"
+
+# extract sample files:
+sampleFiles <- grep("^[RP].*(FL|FP|SP|SL)12[^R]*Aligned.out.bam.htseq.gene.out", list.files(directory), value=TRUE)
+
+realSampleFiles <- sampleFiles[c(1,4,5,6,7,8,9,10,11,12,13,14,16,17,20,21)]
+realSampleFiles
+
+# assign phase and batch to each sample, based on filename:
+sampleCondition <- sub(".*(FP|FL|SP|SL)\\d\\d.*", "\\1", realSampleFiles)
+sampleCondition
+
+
+sampleBatch <- sub("^[RMP]_(B[0-9]).*", "\\1", realSampleFiles)
+sampleBatch
+
+# construct table, including design (incorporates batch effect in model)
+sampleTable <- data.frame(sampleName = realSampleFiles,
+                            fileName = realSampleFiles,
+                            condition = sampleCondition,
+                            batch = sampleBatch)
+
+
+dds <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
+                                        directory = directory,
+                                        design= ~ condition)
+dds
+
+dds_lrt <- DESeq(dds, test="LRT", full=~ condition,
+                reduced=~ 1)
+dds_wald <- DESeq(dds)
+
+res_lrt <- results(dds_lrt, alpha=0.05)
+res_stat <- results(dds_wald, alpha=0.05, contrast=c("condition", "SL", "SP"))
+res_forg <- results(dds_wald, alpha=0.05, contrast=c("condition", "FL", "FP"))
+
+
+# order results on adjusted pvalue:
+resLRTOrdered <- res_lrt[order(res_lrt$padj),]
+summary(resLRTOrdered)
+
+resStatOrdered <- res_stat[order(res_stat$padj),]
+summary(resStatOrdered)
+
+resForgOrdered <- res_forg[order(res_forg$padj),]
+summary(resForgOrdered)
+
+
+# count number of genes with adjusted pvalue less than 0.05
+SigLRT <- subset(resLRTOrdered, padj < 0.05)
+length(SigLRT$padj)
+
+# graph all variance adjusted genes:
+pdf('DEGs.6_hours.pdf')
+plotMA(res, main="Broodswap 6 hour time points (~ batch + condition + comparison)", ylim=c(-2,2))
+dev.off()
+
+# save pvalue and log fold change results for all genes to file:
+write.table(as.data.frame(resLRTOrdered), file="broodswap_12hrs.4_treatments.LRT_analysis.pvalues.out", quote=FALSE)
+write.table(as.data.frame(resStatOrdered), file="broodswap_12hrs.4_treatments.statary_wald.pvalues.out", quote=FALSE)
+write.table(as.data.frame(resForgOrdered), file="broodswap_12hrs.4_treatments.foraging_wald.pvalues.out", quote=FALSE)
+
+# produce and save the variance adjusted count values for each gene and save to file:
+vsd <- varianceStabilizingTransformation(dds)
+vstMat <- assay(vsd)
+write.table(as.data.frame(vstMat), file="broodswap_6hrs.4_treatments.vst.tbl", quote=FALSE)
+
+# stop reporting to file. If reporting is restarted, don't forget to add append = "TRUE" !!!
+sink(zz, type = "output")
+sink()
+
+

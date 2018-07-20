@@ -1,0 +1,50 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+4 significantly enriched go terms found
+GO:0004984 [MF] 'olfactory receptor activity'
+GO:0005549 [MF] 'odorant binding'
+GO:0016020 [CL] 'membrane'
+GO:0007608 [BP] 'sensory perception of smell'
+
+12/56 (21.43%) of genes had enriched go terms:
+LOC105285745
+LOC105287968
+LOC105279715
+LOC105283918
+LOC105279630
+LOC105285722
+LOC105284849
+LOC105287285
+LOC105278416
+LOC105282132
+LOC105276651
+LOC105277748
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0004984 [MF] 'olfactory receptor activity'
+Has GO                 Doesn't Have GO
+         Target Set: 7       49
+     Non-Target Set: 379     9996
+         odds-ratio: 3.768
+            P-value: 0.004
+
+GO:0007608 [BP] 'sensory perception of smell'
+Has GO                 Doesn't Have GO
+         Target Set: 7       49
+     Non-Target Set: 379     9996
+         odds-ratio: 3.768
+            P-value: 0.004
+
+GO:0016020 [CL] 'membrane'
+Has GO                 Doesn't Have GO
+         Target Set: 12      44
+     Non-Target Set: 922     9453
+         odds-ratio: 2.796
+            P-value: 0.003
+
+GO:0005549 [MF] 'odorant binding'
+Has GO                 Doesn't Have GO
+         Target Set: 7       49
+     Non-Target Set: 390     9985
+         odds-ratio: 3.658
+            P-value: 0.005

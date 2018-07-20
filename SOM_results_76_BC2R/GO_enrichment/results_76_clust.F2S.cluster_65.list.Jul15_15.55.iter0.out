@@ -1,0 +1,108 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+10 significantly enriched go terms found
+GO:0005249 [MF] 'voltage-gated potassium channel activity'
+GO:0015078 [MF] 'hydrogen ion transmembrane transporter activity'
+GO:0005216 [MF] 'ion channel activity'
+GO:0033179 [CL] 'proton-transporting V-type ATPase, V0 domain'
+GO:0008076 [CL] 'voltage-gated potassium channel complex'
+GO:0005891 [CL] 'voltage-gated calcium channel complex'
+GO:0055085 [BP] 'transmembrane transport'
+GO:0006813 [BP] 'potassium ion transport'
+GO:0006811 [BP] 'ion transport'
+GO:0051260 [BP] 'protein homooligomerization'
+
+22/204 (10.78%) of genes had enriched go terms:
+LOC105285965
+LOC105281430
+LOC105279090
+LOC105282988
+LOC105280692
+LOC105278312
+LOC105280865
+LOC105277547
+LOC105279746
+LOC105277251
+LOC105281613
+LOC105288006
+LOC105277149
+LOC105277473
+LOC105280161
+LOC105284445
+LOC105285196
+LOC105280717
+LOC105286155
+LOC105281654
+LOC105275740
+LOC105279418
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0033179 [CL] 'proton-transporting V-type ATPase, V0 domain'
+Has GO                 Doesn't Have GO
+         Target Set: 3       201
+     Non-Target Set: 3       10224
+         odds-ratio: 50.866
+            P-value: 0.000
+
+GO:0008076 [CL] 'voltage-gated potassium channel complex'
+Has GO                 Doesn't Have GO
+         Target Set: 3       201
+     Non-Target Set: 3       10224
+         odds-ratio: 50.866
+            P-value: 0.000
+
+GO:0055085 [BP] 'transmembrane transport'
+Has GO                 Doesn't Have GO
+         Target Set: 14      190
+     Non-Target Set: 211     10016
+         odds-ratio: 3.498
+            P-value: 0.000
+
+GO:0005891 [CL] 'voltage-gated calcium channel complex'
+Has GO                 Doesn't Have GO
+         Target Set: 2       202
+     Non-Target Set: 2       10225
+         odds-ratio: 50.619
+            P-value: 0.002
+
+GO:0005249 [MF] 'voltage-gated potassium channel activity'
+Has GO                 Doesn't Have GO
+         Target Set: 4       200
+     Non-Target Set: 6       10221
+         odds-ratio: 34.070
+            P-value: 0.000
+
+GO:0015078 [MF] 'hydrogen ion transmembrane transporter activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       201
+     Non-Target Set: 10      10217
+         odds-ratio: 15.249
+            P-value: 0.002
+
+GO:0006813 [BP] 'potassium ion transport'
+Has GO                 Doesn't Have GO
+         Target Set: 5       199
+     Non-Target Set: 16      10211
+         odds-ratio: 16.035
+            P-value: 0.000
+
+GO:0006811 [BP] 'ion transport'
+Has GO                 Doesn't Have GO
+         Target Set: 12      192
+     Non-Target Set: 57      10170
+         odds-ratio: 11.151
+            P-value: 0.000
+
+GO:0051260 [BP] 'protein homooligomerization'
+Has GO                 Doesn't Have GO
+         Target Set: 4       200
+     Non-Target Set: 8       10219
+         odds-ratio: 25.547
+            P-value: 0.000
+
+GO:0005216 [MF] 'ion channel activity'
+Has GO                 Doesn't Have GO
+         Target Set: 10      194
+     Non-Target Set: 48      10179
+         odds-ratio: 10.931
+            P-value: 0.000

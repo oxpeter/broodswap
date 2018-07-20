@@ -1,0 +1,16 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0006850 [BP] 'mitochondrial pyruvate transport'
+
+2/95 (2.11%) of genes had enriched go terms:
+LOC105277494
+LOC105285720
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0006850 [BP] 'mitochondrial pyruvate transport'
+Has GO                 Doesn't Have GO
+         Target Set: 2       93
+     Non-Target Set: 2       10334
+         odds-ratio: 111.118
+            P-value: 0.000

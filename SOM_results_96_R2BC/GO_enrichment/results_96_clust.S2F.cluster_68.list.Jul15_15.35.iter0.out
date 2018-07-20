@@ -1,0 +1,98 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+7 significantly enriched go terms found
+GO:0004984 [MF] 'olfactory receptor activity'
+GO:0003743 [MF] 'translation initiation factor activity'
+GO:0005549 [MF] 'odorant binding'
+GO:0004803 [MF] 'transposase activity'
+GO:0007608 [BP] 'sensory perception of smell'
+GO:0006313 [BP] 'transposition, DNA-mediated'
+GO:0050909 [BP] 'sensory perception of taste'
+
+36/206 (17.48%) of genes had enriched go terms:
+LOC105278825
+LOC105286879
+LOC105286880
+LOC105283901
+LOC105274853
+LOC105284031
+LOC105278146
+LOC105286679
+LOC105282078
+LOC105285142
+LOC105286682
+LOC105287007
+LOC105276309
+LOC105286684
+LOC105285971
+LOC105279110
+LOC105287075
+LOC105276657
+LOC105286020
+LOC105284030
+LOC105283933
+LOC105280162
+LOC105284990
+LOC105286033
+LOC105286933
+LOC105287139
+LOC105282617
+LOC105280150
+LOC105276768
+LOC105280155
+LOC105275701
+LOC105276665
+LOC105280650
+LOC105275932
+LOC105275934
+LOC105285752
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0004984 [MF] 'olfactory receptor activity'
+Has GO                 Doesn't Have GO
+         Target Set: 25      181
+     Non-Target Set: 361     9864
+         odds-ratio: 3.774
+            P-value: 0.000
+
+GO:0003743 [MF] 'translation initiation factor activity'
+Has GO                 Doesn't Have GO
+         Target Set: 4       202
+     Non-Target Set: 24      10201
+         odds-ratio: 8.417
+            P-value: 0.002
+
+GO:0005549 [MF] 'odorant binding'
+Has GO                 Doesn't Have GO
+         Target Set: 25      181
+     Non-Target Set: 372     9853
+         odds-ratio: 3.658
+            P-value: 0.000
+
+GO:0004803 [MF] 'transposase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 3       203
+     Non-Target Set: 12      10213
+         odds-ratio: 12.578
+            P-value: 0.003
+
+GO:0007608 [BP] 'sensory perception of smell'
+Has GO                 Doesn't Have GO
+         Target Set: 25      181
+     Non-Target Set: 361     9864
+         odds-ratio: 3.774
+            P-value: 0.000
+
+GO:0006313 [BP] 'transposition, DNA-mediated'
+Has GO                 Doesn't Have GO
+         Target Set: 3       203
+     Non-Target Set: 12      10213
+         odds-ratio: 12.578
+            P-value: 0.003
+
+GO:0050909 [BP] 'sensory perception of taste'
+Has GO                 Doesn't Have GO
+         Target Set: 4       202
+     Non-Target Set: 17      10208
+         odds-ratio: 11.891
+            P-value: 0.001

@@ -1,0 +1,18 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+1 significantly enriched go terms found
+GO:0052689 [MF] 'carboxylic ester hydrolase activity'
+
+4/133 (3.01%) of genes had enriched go terms:
+LOC105281103
+LOC105274496
+LOC105277850
+LOC105287485
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0052689 [MF] 'carboxylic ester hydrolase activity'
+Has GO                 Doesn't Have GO
+         Target Set: 4       129
+     Non-Target Set: 16      10282
+         odds-ratio: 19.926
+            P-value: 0.000

@@ -1,0 +1,49 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+2 significantly enriched go terms found
+GO:0004518 [MF] 'nuclease activity'
+GO:0008152 [BP] 'metabolic process'
+
+27/343 (7.87%) of genes had enriched go terms:
+LOC105286556
+LOC105279541
+LOC105281358
+LOC105281179
+LOC105276009
+LOC105286822
+LOC105283699
+LOC105281770
+LOC105281577
+LOC105286430
+LOC105274885
+LOC105284894
+LOC105276471
+LOC105278423
+LOC105286228
+LOC105280234
+LOC105280122
+LOC105274508
+LOC105277417
+LOC105279991
+LOC105278221
+LOC105275407
+LOC105275385
+LOC105278857
+LOC105278588
+LOC105282183
+LOC105283948
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0008152 [BP] 'metabolic process'
+Has GO                 Doesn't Have GO
+         Target Set: 23      320
+     Non-Target Set: 282     9806
+         odds-ratio: 2.499
+            P-value: 0.000
+
+GO:0004518 [MF] 'nuclease activity'
+Has GO                 Doesn't Have GO
+         Target Set: 4       339
+     Non-Target Set: 7       10081
+         odds-ratio: 16.993
+            P-value: 0.000

@@ -1,0 +1,60 @@
+Significantly enriched GO terms (Q-value <= 0.05)
+5 significantly enriched go terms found
+GO:0003735 [MF] 'structural constituent of ribosome'
+GO:0005840 [CL] 'ribosome'
+GO:0015935 [CL] 'small ribosomal subunit'
+GO:0042254 [BP] 'ribosome biogenesis'
+GO:0006412 [BP] 'translation'
+
+14/157 (8.92%) of genes had enriched go terms:
+LOC105275356
+LOC105284174
+LOC105278527
+LOC105278306
+LOC105285811
+LOC105275885
+LOC105288192
+LOC105282696
+LOC105286451
+LOC105286295
+LOC105284931
+LOC105287849
+LOC105287842
+LOC105278767
+
+
+Fisher's Exact Test results for enriched GO terms:
+GO:0005840 [CL] 'ribosome'
+Has GO                 Doesn't Have GO
+         Target Set: 10      147
+     Non-Target Set: 105     10169
+         odds-ratio: 6.588
+            P-value: 0.000
+
+GO:0042254 [BP] 'ribosome biogenesis'
+Has GO                 Doesn't Have GO
+         Target Set: 3       154
+     Non-Target Set: 15      10259
+         odds-ratio: 13.323
+            P-value: 0.002
+
+GO:0015935 [CL] 'small ribosomal subunit'
+Has GO                 Doesn't Have GO
+         Target Set: 3       154
+     Non-Target Set: 10      10264
+         odds-ratio: 19.995
+            P-value: 0.001
+
+GO:0003735 [MF] 'structural constituent of ribosome'
+Has GO                 Doesn't Have GO
+         Target Set: 11      146
+     Non-Target Set: 112     10162
+         odds-ratio: 6.836
+            P-value: 0.000
+
+GO:0006412 [BP] 'translation'
+Has GO                 Doesn't Have GO
+         Target Set: 11      146
+     Non-Target Set: 117     10157
+         odds-ratio: 6.541
+            P-value: 0.000

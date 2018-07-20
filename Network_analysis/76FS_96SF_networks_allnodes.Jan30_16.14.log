@@ -1,0 +1,24 @@
+File created on Jan30_16.14
+Program called from /home/antqueen/genomics/experiments/analyses/PRO20160617_broodswap_subtraction/SOM
+/Volumes/antqueen/documents/Peter/git/small_fry/compare_clusters.py -d Network_analysis -o 76FS_96SF_networks_allnodes -c 1 -t list -n 4 SOM_results_76_F2S SOM_results_96_S2F -w 0 -W 20 --draw_small --dirfilter clust
+
+column=1,
+dimensions=2,
+directory='Network_analysis',
+dirfilter='clust',
+display_off=False,
+draw_small=True,
+drop_small=False,
+filetype='list',
+filter=None,
+input=['SOM_results_76_F2S',
+'SOM_results_96_S2F'],
+jidx=False,
+maxweight=20.0,
+minweight=0.0,
+network=4,
+output='76FS_96SF_networks_allnodes',
+quiet=False,
+random=0,
+second_degree=False,
+use_random=False
